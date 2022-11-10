@@ -31,7 +31,7 @@ local Section = Tab:CreateSection("Main GUI")
 local Button = Tab:CreateButton({
 	Name = "Load Niggaware",
 	Callback = function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/gmdB9Esj
+		loadstring(game:HttpGet('https://pastebin.com/raw/gmdB9Esj'))()
 
 ",true))()
 	end,
